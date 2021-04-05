@@ -11,9 +11,7 @@ block content
       p.error Sorry, Your ToDo cannot be empty!
 
     form(method="POST")
-      label.label Title
-      input(class="todo-input" name="title")
+      input(class="todo-input" name="title" placeholder="Title")
       
-      label.label Body
-      textarea(class="todo-input" name="body" rows="10")
+      textarea(class="todo-input" name="body" rows="10" placeholder="Description")
       button.create-todo-btn Create todo

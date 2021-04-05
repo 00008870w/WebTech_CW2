@@ -116,20 +116,32 @@
     margin: 0 auto;
     padding: 20px;
     font-family: var(--text-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
   }
   
   .create-todo h1 {
     margin-bottom: 30px;
   }
-  
+  form{
+    min-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   .todo-input {
-    width: 50%;
+    width: 100%;
     display: block;
     border: 2px solid #06D6A0;
     border-radius: 3px;
     font-family: var(--text-font);
     padding: 10px;
     font-size: 1rem;
+    margin-top: 20px;
   }
   
   /* all todos page */
@@ -164,10 +176,11 @@
     padding: 10px 20px;
     font-size: 1.2rem;
     font-weight: bold;
+    border-radius: 3px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-    background-color: #d4d4d4;
+    background-color: #06D6A0;
     transition: .4s ease;
-    color: #303036;
+    color: #211F1F;
     margin-bottom: 5px;
   }
 
@@ -176,11 +189,11 @@
     text-transform: capitalize;
   }
   .todos > li a:nth-child(1){
-    color: #32323f;
+    color: #211F1F;
     transition: .4s ease;
   }
   .todos > li a:nth-child(1):hover{
-    color: #fc5130;
+    color: #FFD166;
   }
   
   /* todo detail page */
@@ -246,9 +259,10 @@
   
   .delete-todo {
     font-size: 0.8rem;
-    background: #fc5130;
-    color: #ffffff;
+    background: #FFD166;
+    color: #211F1F;
     padding: 5px 10px;
+    font-weight: bold;
   }
   
   .archive-link {
@@ -266,7 +280,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10px;
+    padding: 20px;
     background-color: #FFD166;
     font-family: var(--text-font);
     color: #211F1F;
@@ -309,17 +323,17 @@
 
   footer .contacts a:nth-child(1):hover i{
     transform: scale(1.1);
-    color: #000000;
+    color: #06D6A0;
   }
 
   footer .contacts a:nth-child(2):hover i{
     transform: scale(1.1);
-    color: #007e8f;
+    color: #06D6A0;
   }
 
   footer .contacts a:nth-child(3):hover i{
     transform: scale(1.1);
-    color: #1a16ff;
+    color: #06D6A0;
   }
 
 
