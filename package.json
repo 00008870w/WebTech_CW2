@@ -1,0 +1,28 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/00008870w/WebTech_CW2.git"
+  },
+  "keywords": [
+    "todoapp"
+  ],
+  "author": "00008870",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/00008870w/WebTech_CW2/issues"
+  },
+  "homepage": "https://github.com/00008870w/WebTech_CW2#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "pug": "^3.0.2"
+  }
+}
