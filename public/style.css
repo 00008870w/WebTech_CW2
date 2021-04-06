@@ -338,6 +338,9 @@
 
 
   @media screen and (max-width: 728px){
+    .navbar{
+      padding: 50px;
+    }
     footer{
       flex-direction: column;
       justify-content: space-around;
